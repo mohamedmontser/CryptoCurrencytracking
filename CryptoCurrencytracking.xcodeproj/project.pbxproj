@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2180C92D2029090051D380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2180C12D2029090051D380 /* Preview Assets.xcassets */; };
+		DB2180DF2D2040EE0051D380 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2180DD2D2040EE0051D380 /* Constants.swift */; };
+		DB2180E72D204FB10051D380 /* CryptoCurrencytrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2180E52D204FB10051D380 /* CryptoCurrencytrackingApp.swift */; };
+		DB2180EB2D204FC00051D380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2180E92D204FC00051D380 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2180A52D2027750051D380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB21808C2D2027720051D380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2180932D2027720051D380;
+			remoteInfo = CryptoCurrencytracking;
+		};
+		DB2180AF2D2027750051D380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB21808C2D2027720051D380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2180932D2027720051D380;
+			remoteInfo = CryptoCurrencytracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2180942D2027720051D380 /* CryptoCurrencytracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrencytracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2180A42D2027750051D380 /* CryptoCurrencytrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrencytrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2180AE2D2027750051D380 /* CryptoCurrencytrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrencytrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2180C12D2029090051D380 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB2180DD2D2040EE0051D380 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB2180E52D204FB10051D380 /* CryptoCurrencytrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencytrackingApp.swift; sourceTree = "<group>"; };
+		DB2180E92D204FC00051D380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DB2180A72D2027750051D380 /* CryptoCurrencytrackingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CryptoCurrencytrackingTests;
+			sourceTree = "<group>";
+		};
+		DB2180B12D2027750051D380 /* CryptoCurrencytrackingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CryptoCurrencytrackingUITests;
+			sourceTree = "<group>";
+		};
+		DB2180EC2D204FED0051D380 /* Presentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2180912D2027720051D380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2180A12D2027750051D380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2180AB2D2027750051D380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB21808B2D2027720051D380 = {
+			isa = PBXGroup;
+			children = (
+				DB2180C62D2029090051D380 /* CryptoCurrencytracking */,
+				DB2180A72D2027750051D380 /* CryptoCurrencytrackingTests */,
+				DB2180B12D2027750051D380 /* CryptoCurrencytrackingUITests */,
+				DB2180952D2027720051D380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2180952D2027720051D380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180942D2027720051D380 /* CryptoCurrencytracking.app */,
+				DB2180A42D2027750051D380 /* CryptoCurrencytrackingTests.xctest */,
+				DB2180AE2D2027750051D380 /* CryptoCurrencytrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2180C22D2029090051D380 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180C12D2029090051D380 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB2180C62D2029090051D380 /* CryptoCurrencytracking */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180EC2D204FED0051D380 /* Presentation */,
+				DB2180EA2D204FC00051D380 /* Resources */,
+				DB2180E62D204FB10051D380 /* Application */,
+				DB2180CF2D2029A90051D380 /* Modules */,
+				DB2180CE2D20299B0051D380 /* EndPoints */,
+				DB2180D02D2029A90051D380 /* Utilities */,
+				DB2180C22D2029090051D380 /* Preview Content */,
+			);
+			path = CryptoCurrencytracking;
+			sourceTree = "<group>";
+		};
+		DB2180CE2D20299B0051D380 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		DB2180CF2D2029A90051D380 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180D82D2040990051D380 /* ViewModel */,
+				DB2180D72D2040990051D380 /* Presentation */,
+				DB2180D62D2040990051D380 /* Model */,
+				DB2180D52D2040990051D380 /* Domain */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DB2180D02D2029A90051D380 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180DE2D2040EE0051D380 /* Constant */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DB2180D52D2040990051D380 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DB2180D62D2040990051D380 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB2180D72D2040990051D380 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DB2180D82D2040990051D380 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DB2180DE2D2040EE0051D380 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180DD2D2040EE0051D380 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		DB2180E62D204FB10051D380 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180E52D204FB10051D380 /* CryptoCurrencytrackingApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DB2180EA2D204FC00051D380 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB2180E92D204FC00051D380 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2180932D2027720051D380 /* CryptoCurrencytracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2180B82D2027750051D380 /* Build configuration list for PBXNativeTarget "CryptoCurrencytracking" */;
+			buildPhases = (
+				DB2180902D2027720051D380 /* Sources */,
+				DB2180912D2027720051D380 /* Frameworks */,
+				DB2180922D2027720051D380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB2180EC2D204FED0051D380 /* Presentation */,
+			);
+			name = CryptoCurrencytracking;
+			packageProductDependencies = (
+			);
+			productName = CryptoCurrencytracking;
+			productReference = DB2180942D2027720051D380 /* CryptoCurrencytracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB2180A32D2027750051D380 /* CryptoCurrencytrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2180BB2D2027750051D380 /* Build configuration list for PBXNativeTarget "CryptoCurrencytrackingTests" */;
+			buildPhases = (
+				DB2180A02D2027750051D380 /* Sources */,
+				DB2180A12D2027750051D380 /* Frameworks */,
+				DB2180A22D2027750051D380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2180A62D2027750051D380 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB2180A72D2027750051D380 /* CryptoCurrencytrackingTests */,
+			);
+			name = CryptoCurrencytrackingTests;
+			packageProductDependencies = (
+			);
+			productName = CryptoCurrencytrackingTests;
+			productReference = DB2180A42D2027750051D380 /* CryptoCurrencytrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB2180AD2D2027750051D380 /* CryptoCurrencytrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2180BE2D2027750051D380 /* Build configuration list for PBXNativeTarget "CryptoCurrencytrackingUITests" */;
+			buildPhases = (
+				DB2180AA2D2027750051D380 /* Sources */,
+				DB2180AB2D2027750051D380 /* Frameworks */,
+				DB2180AC2D2027750051D380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB2180B02D2027750051D380 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DB2180B12D2027750051D380 /* CryptoCurrencytrackingUITests */,
+			);
+			name = CryptoCurrencytrackingUITests;
+			packageProductDependencies = (
+			);
+			productName = CryptoCurrencytrackingUITests;
+			productReference = DB2180AE2D2027750051D380 /* CryptoCurrencytrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB21808C2D2027720051D380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					DB2180932D2027720051D380 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					DB2180A32D2027750051D380 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DB2180932D2027720051D380;
+					};
+					DB2180AD2D2027750051D380 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DB2180932D2027720051D380;
+					};
+				};
+			};
+			buildConfigurationList = DB21808F2D2027720051D380 /* Build configuration list for PBXProject "CryptoCurrencytracking" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB21808B2D2027720051D380;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DB2180952D2027720051D380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2180932D2027720051D380 /* CryptoCurrencytracking */,
+				DB2180A32D2027750051D380 /* CryptoCurrencytrackingTests */,
+				DB2180AD2D2027750051D380 /* CryptoCurrencytrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2180922D2027720051D380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2180EB2D204FC00051D380 /* Assets.xcassets in Resources */,
+				DB2180C92D2029090051D380 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2180A22D2027750051D380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2180AC2D2027750051D380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2180902D2027720051D380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2180E72D204FB10051D380 /* CryptoCurrencytrackingApp.swift in Sources */,
+				DB2180DF2D2040EE0051D380 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2180A02D2027750051D380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2180AA2D2027750051D380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2180A62D2027750051D380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2180932D2027720051D380 /* CryptoCurrencytracking */;
+			targetProxy = DB2180A52D2027750051D380 /* PBXContainerItemProxy */;
+		};
+		DB2180B02D2027750051D380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2180932D2027720051D380 /* CryptoCurrencytracking */;
+			targetProxy = DB2180AF2D2027750051D380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB2180B62D2027750051D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB2180B72D2027750051D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2180B92D2027750051D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCurrencytracking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sure.CryptoCurrencytracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2180BA2D2027750051D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCurrencytracking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sure.CryptoCurrencytracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB2180BC2D2027750051D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sure.CryptoCurrencytrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCurrencytracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCurrencytracking";
+			};
+			name = Debug;
+		};
+		DB2180BD2D2027750051D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sure.CryptoCurrencytrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCurrencytracking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CryptoCurrencytracking";
+			};
+			name = Release;
+		};
+		DB2180BF2D2027750051D380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sure.CryptoCurrencytrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoCurrencytracking;
+			};
+			name = Debug;
+		};
+		DB2180C02D2027750051D380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sure.CryptoCurrencytrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoCurrencytracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB21808F2D2027720051D380 /* Build configuration list for PBXProject "CryptoCurrencytracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2180B62D2027750051D380 /* Debug */,
+				DB2180B72D2027750051D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2180B82D2027750051D380 /* Build configuration list for PBXNativeTarget "CryptoCurrencytracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2180B92D2027750051D380 /* Debug */,
+				DB2180BA2D2027750051D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2180BB2D2027750051D380 /* Build configuration list for PBXNativeTarget "CryptoCurrencytrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2180BC2D2027750051D380 /* Debug */,
+				DB2180BD2D2027750051D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2180BE2D2027750051D380 /* Build configuration list for PBXNativeTarget "CryptoCurrencytrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2180BF2D2027750051D380 /* Debug */,
+				DB2180C02D2027750051D380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB21808C2D2027720051D380 /* Project object */;
+}
