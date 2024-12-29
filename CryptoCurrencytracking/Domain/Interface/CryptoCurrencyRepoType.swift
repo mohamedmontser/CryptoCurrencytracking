@@ -10,5 +10,5 @@ import Combine
 
 protocol CryptoCurrencyRepo {
     func fetchAllCoins(request: CoinsRequestModel) -> AnyPublisher<[CoinsResponseModel], Error>
-    func fetchCoinDetails(request: CoinDetailsRequestModel) -> AnyPublisher<[CoinDetailsResponseModel], Error>
+    func fetchCoinDetails(request: CoinDetailsRequestModel) -> AnyPublisher<CoinDetailsResponseModel, Error>
 }

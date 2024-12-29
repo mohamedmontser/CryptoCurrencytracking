@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+
+struct CoinsRequestModel: BaseModel {
+    var vs_currency: String?
+    var order: CoinsOrder?
+    var per_page: Int?
+    var page: Int?
+}
+
+enum CoinsOrder: String, Codable {
+    case desc = "market_cap_desc"
+    case asec = "market_cap_asec"
+}

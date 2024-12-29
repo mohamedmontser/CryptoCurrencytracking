@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct CoinDetailsRequestModel: BaseModel {
+    var id: String?
+}
