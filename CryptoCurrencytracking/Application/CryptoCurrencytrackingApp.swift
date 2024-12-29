@@ -11,7 +11,7 @@ import SwiftUI
 struct CryptoCurrencytrackingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoinsView(viewModel: CoinsViewModel(fetchAllCoinsUseCase: FetchAllCoinsUseCase(repository: CryptoCurrencyRepoImpl(service: CryptoCurrencyService()))))
         }
     }
 }
