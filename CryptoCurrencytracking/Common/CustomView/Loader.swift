@@ -8,10 +8,20 @@
 import SwiftUI
 
 struct Loader: View {
+    var size: Double = 70
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack(alignment: .center) {
+                Spacer()
+                ProgressView()
+                    .frame(width: size, height: size)
+                    .foregroundColor(Color.red)
+                Spacer()
+            }
+        }
     }
 }
+
 
 #Preview {
     Loader()

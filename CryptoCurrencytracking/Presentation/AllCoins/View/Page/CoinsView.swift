@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CoinsView: View {
+    
     @StateObject private var viewModel: CoinsViewModel
     
     init(viewModel: CoinsViewModel) {
@@ -17,37 +18,28 @@ struct CoinsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                // Search Bar
                 CoinsSearchView(searchText: $viewModel.searchText)
                 
                 CoinsFilterView(showFavoritesOnly: $viewModel.showFavoritesOnly)
                 
-                AppStateView(state: $viewModel.state, tryAgainAction: tryAgain, backAction: nil) {
-                    CoinsListView(viewModel: $viewModel)
+                AppStateView(state: $viewModel.state, tryAgainAction: tryAgain) {
+                    CoinsListView(viewModel: viewModel)
                 }
             }
             .navigationTitle("Coins")
             .onAppear {
-                viewModel.state = .loading
-                viewModel.currentPage = 1
-                viewModel.fetchCoins()
+                loadData()
             }
         }
     }
-    
-    func canLoadMore(model: CoinsResponseModel) -> any View {
-        if viewModel.hasMoreData && viewModel.currentPage > 1 && model.id == viewModel.coins.last?.id {
-            return Loader(size: 30)
-                .id(UUID())
-                .onAppear(perform: {
-                    viewModel.fetchCoins()
-                })
-        }else{
-            return  EmptyView()
-        }
+        
+    private func tryAgain() {
+        loadData()
     }
     
-    func tryAgain() {
-        
+    private func loadData() {
+        viewModel.state = .loading
+        viewModel.currentPage = 1
+        viewModel.fetchCoins()
     }
 }

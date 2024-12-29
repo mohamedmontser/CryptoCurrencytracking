@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct CoinsFilterView: View {
+    @Binding var showFavoritesOnly: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Picker("Filter", selection: $showFavoritesOnly) {
+            Text("All Coins").tag(false)
+            Text("Favorites").tag(true)
+        }
+        .pickerStyle(SegmentedPickerStyle())
+        .padding(.bottom)
+        .padding(.horizontal)
     }
-}
-
-#Preview {
-    CoinsFilterView()
 }

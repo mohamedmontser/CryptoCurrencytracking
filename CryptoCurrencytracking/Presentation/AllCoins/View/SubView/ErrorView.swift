@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct ErrorView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
-#Preview {
-    ErrorView()
+struct ErrorView: View {
+    let errorMessage: String
+
+    var body: some View {
+        Text(errorMessage)
+            .foregroundColor(.red)
+            .padding()
+    }
 }

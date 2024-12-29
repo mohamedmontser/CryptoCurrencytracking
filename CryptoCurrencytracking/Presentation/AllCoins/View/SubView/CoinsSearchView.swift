@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct CoinsSearchView: View {
+   
+    @Binding var searchText: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TextField("Search Coins...", text: $searchText)
+            .padding()
+            .textFieldStyle(RoundedBorderTextFieldStyle())
     }
-}
-
-#Preview {
-    CoinsSearchView()
 }

@@ -7,12 +7,31 @@
 
 import SwiftUI
 
-struct CoinsRowView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
-#Preview {
-    CoinsRowView()
+struct CoinRowView: View {
+    let coin: CoinsResponseModel
+    let isFavorite: Bool
+    @ObservedObject var viewModel: CoinsViewModel
+    let onFavoriteToggle: () -> Void
+    
+    var body: some View {
+        HStack {
+            NavigationLink(destination: CoinDetailsView(coin: coin)) {
+                HStack {
+                    Text(coin.name ?? "") // Example content
+                    Spacer()
+                    Text("\(coin.currentPrice ?? 0) $")
+                }
+            }
+            .buttonStyle(PlainButtonStyle())
+            
+            Button(action: {
+                viewModel.toggleFavorite(for: coin)
+            }) {
+                Image(systemName: viewModel.isFavorite(coin: coin) ? "star.fill" : "star")
+                    .foregroundColor(viewModel.isFavorite(coin: coin) ? .yellow : .gray)
+            }
+        }
+        .padding()
+    }
 }
