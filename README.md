@@ -108,7 +108,7 @@ CryptoTracker/
 ---
 
 ## Unit Tests
-MARK: - will be in incoming realse 
+MARK: - will be in the incoming release 
 
 Unit tests are available for:  
 - **ViewModels**: Ensuring correct filtering, searching, and state management logic.  
