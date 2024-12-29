@@ -1,4 +1,3 @@
-![favoritesCryptoCurrencies](https://github.com/user-attachments/assets/1cda52e2-2106-415f-9868-5c71eb91ac9d)
 # CryptoTracker
 
 CryptoTracker is a SwiftUI-based cryptocurrency tracking app designed to display real-time cryptocurrency prices, allow users to search and filter cryptocurrencies, and manage favorites. Built using Combine and the MVVM architecture, this app leverages modern iOS development practices for a seamless user experience.
